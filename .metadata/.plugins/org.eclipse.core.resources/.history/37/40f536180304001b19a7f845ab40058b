@@ -1,0 +1,11 @@
+package br.com.lojauati.teste;
+
+public class TesteTelevisão {
+
+	public static void main(String[] args) {
+		Televisao tv = new Televisao();
+		
+
+	}
+
+}

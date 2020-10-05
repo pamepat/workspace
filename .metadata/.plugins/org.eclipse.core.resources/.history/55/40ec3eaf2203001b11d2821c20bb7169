@@ -1,0 +1,30 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioRepeticao {
+	/*
+	 * Jogador 1 vai digitar um número
+	 * Jogador 2 vai descobrir o número
+	 * Exibir o Parabens jogador2 qnd ele descobrir
+	 * Atualizações
+	 * - o jogador 2 irá receber dicas enquanto ele naão acertar
+	 * - no final tem que exibir qnts tentativas foram utilizadas pelo jogador 2
+	 */
+
+	public static void main(String[] args) {
+		char resposta=0;
+		do {
+		int valor1 = Integer.parseInt(JOptionPane.showInputDialog("Valor Jogador 1"));
+		int valor2 = Integer.parseInt(JOptionPane.showInputDialog("Valor Jogador 2"));
+		if (valor2==valor1) {
+			System.out.println(" Parabéns jogador 2, você acertou!");
+		}else if (valor2>valor1) {
+			System.out.println("Continue tentando, o número que você digitou é maior que o do J1");
+		}else if (valor2<valor1) {
+		System.out.println("Continue tentando, o valor que você digitou é menor do que o do J1");
+	}
+		resposta = JOptionPane.showInputDialog("Digite <S> para continuar").toUpperCase().charAt(0);
+		}while (resposta== 'S');
+}
+}

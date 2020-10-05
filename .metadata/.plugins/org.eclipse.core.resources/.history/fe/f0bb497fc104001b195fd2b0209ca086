@@ -1,0 +1,20 @@
+package br.com.ecommerce.implementacao;
+
+import br.com.ecommerce.beans.Cliente;
+import br.com.ecommerce.beans.Produto;
+import br.com.ecommerce.beans.Venda;
+import br.com.ecommerce.tela.Magica;
+
+public class ImplementarVendaConstrutor {
+
+	public static void main(String[] args) {
+	Venda objeto = new Venda (
+			Magica.i("Nota Fiscal"),
+			Magica.s ("Data"),
+			Magica.f("Total"),
+			new Produto (),
+			new Cliente ()
+			);
+	}
+
+}

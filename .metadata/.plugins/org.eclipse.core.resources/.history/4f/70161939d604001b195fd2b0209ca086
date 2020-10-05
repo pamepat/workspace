@@ -1,0 +1,31 @@
+package br.com.ecommerce.beans;
+
+public class PessoaFisica {
+ private String cfp;
+ private String rg;
+ private String nascimento;
+ 
+ 
+ 
+public String getCfp() {
+	return cfp;
+}
+public void setCfp(String cfp) {
+	this.cfp = cfp;
+}
+public String getRg() {
+	return rg;
+}
+public void setRg(String rg) {
+	this.rg = rg;
+}
+public String getNascimento() {
+	return nascimento;
+}
+public void setNascimento(String nascimento) {
+	this.nascimento = nascimento;
+}
+ 
+ 
+ 
+}

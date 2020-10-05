@@ -1,0 +1,16 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioGeral {
+
+	public static void main(String[] args) {
+		String nome = JOptionPane.showInputDialog("Nome").toUpperCase();
+		short idade = Short.parseShort(JOptionPane.showInputDialog("Idade"));
+		System.out.println(nome +  idade);
+		
+		
+
+	}
+
+}

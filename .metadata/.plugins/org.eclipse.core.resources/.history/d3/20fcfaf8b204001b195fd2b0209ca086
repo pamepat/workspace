@@ -1,0 +1,35 @@
+package br.com.ecommerce.implementacao;
+
+import br.com.ecommerce.beans.Cliente;
+import br.com.ecommerce.beans.Endereco;
+import br.com.ecommerce.beans.Produto;
+import br.com.ecommerce.beans.Venda;
+
+public class ImplementarVenda {
+
+	public static void main(String[] args) {
+		Venda venda = new Venda ();
+		Cliente cliente = new Cliente ();
+		Endereco endereco = new Endereco ();
+		Produto produto = new Produto ();
+		
+		cliente.setEndereco(endereco);
+		venda.setProduto(produto);
+		venda.setCliente(cliente);
+		
+		endereco.setBairro("CENTRO");
+		endereco.setLogradouro("AV PAULISTA");
+		
+		cliente.setId(1);
+		cliente.setNome("JOANA");
+		
+		produto.setDescricao("OVOS");
+		produto.setQtde(30);
+		produto.setValorVenda(10);
+		
+		venda.setData("10/10/2020");
+		venda.setTotal(30);
+		System.out.println(venda.getAll());
+	}
+
+}

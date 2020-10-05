@@ -1,0 +1,14 @@
+package br.com.universidade.implementacao;
+
+import br.com.universidade.magica.Magica;
+import br.com.universidade.modelo.Formacao;
+
+public class TesteFormacao {
+
+	public static void main(String[] args) {
+		Formacao formacao = new Medio ();
+		char resposta = JOptionPane.showInputDialog("Digite: \n<1> Medio\n<2>Bacharelado\n<3>Pos").charAt(0);
+		
+	}
+
+}

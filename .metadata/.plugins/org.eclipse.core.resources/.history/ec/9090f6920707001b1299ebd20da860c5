@@ -1,0 +1,16 @@
+package br.com.universidade.implementacao;
+
+import br.com.universidade.magica.Magica;
+import br.com.universidade.modelo.Formacao;
+
+public class TesteFormacao {
+
+	public static void main(String[] args) {
+		Formacao objeto = new Formacao (
+				Magica.f("Valor"),
+				Magica.s("Descrição"),
+				Magica.i("Duração")
+				);
+	}
+
+}

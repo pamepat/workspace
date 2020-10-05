@@ -1,0 +1,14 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioGeral {
+
+	public static void main(String[] args) {
+		String nome = JOptionPane.showInputDialog("Nome").toUpperCase();
+		
+		
+
+	}
+
+}

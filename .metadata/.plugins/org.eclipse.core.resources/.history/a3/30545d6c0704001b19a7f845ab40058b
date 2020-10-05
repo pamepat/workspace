@@ -1,0 +1,26 @@
+package br.com.universidade.modelo;
+
+public class aluno {
+	private int rm;
+	private String nome;
+	private String email;
+	
+	public String exibirRm () {
+		return
+				"RM: " + rm;
+	}
+	
+	public String exibirNome () {
+		return
+				"Nome: " + nome;
+	}
+	
+	public String exibirEmail () {
+		return
+				"Email: " + email;
+	}
+	
+	
+	
+}
+		
