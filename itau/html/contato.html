@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<header>
+ <!--tag utilizada para converter caracteres-->  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="stylesheet" href="..\css\estilo.css">
+</header>
+<title>Contato Gama Academy</title>
+<body>
+
+    <table class="fonte_menu" border="0" width="100%">
+        <tr>
+            <td><a href="..\html\index.html" target="blank"><img src="..\imagens\logo.png" ></a> </td>
+            <td align="CENTER">QUEM SOMOS</td>
+            <td align="CENTER">CURSOS ONLINE</td>
+            <td align="CENTER">GAMA EXPERIENCE</td>
+            <td align="CENTER">PARA EMPRESAS</td>
+            <td align="CENTER"><a href="..\html\contato.html" target="blank">CONTATO</a></td>
+            <td align="CENTER">CONTEUDO</td>
+        </tr>
+    
+    
+    </table>
+    <h3>CONTATO</h3>
+    <p>Preencha nosso formulário para se matricular nos cursos da Gama Academy</p>
+
+    <form name="formuser" method="POST">
+        <fieldset>
+    <legend><b>Preencha o nosso formulário para se matricular nos cursos da Gama Academy</b></legend>
+    <label>Nome:</label><input type="text" name="nome_cliente" required><br><br>
+    <label>Email:</label><input type="email" name="email_cliente" required><br><br>
+    <label>Senha:</label><input type="password" name="senha_cliente" required><br><br>
+    <label>Data de Nascimento:</label><input type="date" name="data_cliente" required><br><br>
+    <label>Escolha o curso desejado:</label><select required>
+        <option value="---"></option>
+        <option value="PHP">PHP</option>
+        <option value="CSS">CSS</option>
+        <option value="HTML">HTML</option>
+        <option value="JS">JS</option>
+    </select><br><br>
+    
+    <label>Periodo dos cursos</label><INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> Manhã
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op2"> Tarde  
+        <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op2"> Noite <br><br>
+            <label>Formas de Pagamento</label>    
+            <input type="radio" name="pagamento" value="credito">Credito
+            <input type="radio" name="pagamento" value="debito">Debito<br><br>
+    <label>Envio de documento</label><input type="file" name="arquivo"><br><br>
+    <input type="submit" value="Enviar">
+</fieldset>
+    </form>
+
+
+</body>
+</html>

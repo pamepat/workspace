@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <!-- tag utilizada para converter caracteres    -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet"  href="..\css\estilo.css">
+</header>
+<title>Curso de FrontEnd</title>
+
+<body>
+</body>
+
+
+</html>
